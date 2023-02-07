@@ -15,10 +15,16 @@ const App: React.FC<{}> = () => {
     });
   };
 
+  const setInitialTimeHandler = () => {};
+
   return (
     <div>
       <h1>Hello from the options page</h1>
       <div>
+        <div>
+          <input placeholder="Add time in sec" />
+          <button onClick={setInitialTimeHandler}>Set Initial Time</button>
+        </div>
         <button onClick={clearTaskHandler}>Clear Tasks</button>
         <button onClick={clearTimerHandler}>Clear Timer</button>
       </div>

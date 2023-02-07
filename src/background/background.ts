@@ -33,8 +33,8 @@ chrome.runtime.onInstalled.addListener(() => {
         chrome.notifications.create("stop-timer-id", {
           type: "basic",
           iconUrl: "icon128.png",
-          title: `Timer's UP.`,
-          message: `Time is up you loser.`,
+          title: `Timer Stopped.`,
+          message: `You stopped the timer.`,
         });
       });
     }
