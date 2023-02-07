@@ -1,0 +1,23 @@
+.task {
+  margin-bottom: 20px;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #000;
+  height: 40px;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+
+.btn {
+  width: 100px;
+  height: 25px;
+}
